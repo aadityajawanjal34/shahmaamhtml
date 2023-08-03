@@ -1,0 +1,95 @@
+.body{
+    display: flex;
+    justify-content: end; 
+    flex-direction: row;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.navbar{
+    background-color: rgb(166, 191, 42);
+    border-radius: 10px;
+    font-family: cursive;
+
+
+}
+.navbar ul{
+    display: flex;
+    justify-content: end;
+
+}
+
+.search{
+    margin: 4px 4px;
+
+}
+
+.navbar li{
+
+    padding: 4px 4px;
+    list-style-type: none;
+
+    /* border: 2px solid black; */
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    margin: 0px 23px;
+    /* border: 2px solid black; */
+    border-radius: 4px;
+    padding: 2px 2px 2px 2px;
+
+}
+.navbar li a:hover{
+    background-color: black;
+    color: white;
+}
+
+.navbar input{
+    border: 2px solid black;
+    width: 90px;
+    height: 20px;
+    margin: 2px;
+}
+
+
+
+    .image {
+        margin: 6px -8px;
+        padding: 0px 2px 0px 0px;
+        height: 22px;
+        transform: scalex(-1);
+        border: 2px solid black;
+    }
+
+    .imagesm{
+        margin: 6px 5px;
+        padding: 0px 2px 0px 0px;
+        height: 22px;
+    }
+    button #img1{
+        margin: 4px 2px 0px 5px;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    button #img2{
+        margin: 3px 2px 0px 3px;
+        padding: 0px 0px 0px 0px;
+        height: 30px;
+    }
+    button #img3{
+        margin: 2px 6px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        height: 24px;
+    }
+    
+    
+button{
+    background-color: rgb(166, 191, 42);
+    margin: 0px 0px;
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+}
