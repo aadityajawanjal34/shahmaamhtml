@@ -4,27 +4,29 @@
     flex-direction: row; */
     margin: 0px 0px;
     padding: 0px 0px;
+    
 }
 .container{
     padding: 0px 0px;
     margin: 0px 0px;
+
 }
 /* <--NAVBAR--> */
+
 .navbar{
-    background-color: rgb(207, 201, 20);
+
     border-radius: 10px;
     font-family: cursive;
     padding: 0px 0px;
     margin: 0px 0px;
 
-
 }
 .navbar ul{
+    background-color: black;
     display: flex;
     justify-content: end;
     padding: 0px 0px;
     margin: 0px 0px;
-
 }
 
 .search{
@@ -42,7 +44,7 @@
 
 .navbar li a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 22px;
     margin: 0px 0px;
     /* border: 2px solid black; */
@@ -51,8 +53,8 @@
 
 }
 .navbar li a:hover{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .navbar input{
@@ -64,7 +66,7 @@
 
 
 
-    .image {
+    .search-image {
         margin: 6px -8px 6px 8px;;
         padding: 0px 2px 0px 0px;
         height: 22px;
@@ -76,31 +78,38 @@
         margin: 6px 5px;
         padding: 0px 2px 0px 0px;
         height: 22px;
+        filter: invert();
+
+
+
     }
-    button #img1{
+    .navbutton #img1{
         margin: 4px 2px 0px 5px;
         padding: 0px 0px 0px 0px;
+
     }
     
-    button #img2{
+    .navbutton #img2{
         margin: 3px 2px 0px 3px;
         padding: 0px 0px 0px 0px;
         height: 30px;
     }
-    button #img3{
+    .navbutton #img3{
         margin: 2px 6px 0px 0px;
         padding: 0px 0px 0px 0px;
         height: 24px;
     }
     
     
-button{
-    background-color: rgb(207, 201, 20);
+.navbutton{
+
     margin: 0px 0px;
     padding: 0px 0px;
     border: none;
     cursor: pointer;
+    background-color: black;
 }
+
 
 
 /* about */
@@ -132,7 +141,7 @@ button{
     display: flex;
     flex-direction: column;
 }
-.place1{
+.place{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -143,66 +152,19 @@ button{
     margin: 4px 4px;
     padding: 5px 5px;
 }
-.img1 img{
-    height: 500px;
-    width: 500px;
-}
-.info1{
+.info{
     align-self: center;
 }
-.place2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    height: 100%;
-    width: 100%;
-    /* border: 2px solid red; */
-    margin: 4px 4px;
-    padding: 5px 5px;
-}
-.img2 img{
+
+
+.pic{
+    /* border: 2px solid black; */
     height: 500px;
     width: 500px;
+    margin: 0px 20px 0px 20px;
 }
-.info2{
-    align-self: center;
-}
-.place3{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    height: 100%;
-    width: 100%;
-    /* border: 2px solid red; */
-    margin: 4px 4px;
-    padding: 5px 5px;
-}
-.img3 img{
-    height: 500px;
-    width: 500px;
-}
-.info3{
-    align-self: center;
-}
-.place4{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    height: 100%;
-    width: 100%;
-    /* border: 2px solid red; */
-    margin: 4px 4px;
-    padding: 5px 5px;
-}
-.img4 img{
-    height: 500px;
-    width: 500px;
-}
-.info4{
-    align-self: center;
+p{
+    text-align: justify;
 }
 
 
